@@ -8,7 +8,9 @@
 
 > Lovely Emoticon and Emoji Keyboard for textarea or input
 
+## 运行环境
 
+- Node：11.x（不能 >=12.0）
 
 ## Introduction
 

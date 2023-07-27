@@ -102,7 +102,7 @@
                     let areaValue = this.area.value;
                     let imgUrl =  target.querySelector('img');
                     if(imgUrl){
-                        this.area.value = areaValue.slice(0, cursorPos) + `![](${imgUrl.getAttribute(this.type)})` + areaValue.slice(cursorPos);
+                        this.area.value = areaValue.slice(0, cursorPos) + `![${target.getAttribute("title")}](${imgUrl.getAttribute(this.type)})` + areaValue.slice(cursorPos);
                     }else{
                         this.area.value = areaValue.slice(0, cursorPos) + target.innerHTML + areaValue.slice(cursorPos);
                     }

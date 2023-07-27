@@ -1,11 +1,5 @@
 # OωO
 
-[![npm](https://img.shields.io/npm/v/owo.svg?style=flat-square)](https://www.npmjs.com/package/owo)
-[![npm](https://img.shields.io/npm/l/owo.svg?style=flat-square)](https://www.npmjs.com/package/owo)
-[![devDependency Status](https://img.shields.io/david/dev/DIYgod/owo.svg?style=flat-square)](https://david-dm.org/DIYgod/OwO#info=devDependencies)
-[![npm](https://img.shields.io/npm/dt/owo.svg?style=flat-square)](https://www.npmjs.com/package/owo)
-[![%e2%9d%a4](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://www.anotherhome.net/)
-
 > Lovely Emoticon and Emoji Keyboard for textarea or input
 
 ## 运行环境
@@ -46,6 +40,7 @@ var OwO_demo = new OwO({
     container: document.getElementsByClassName('OwO')[0],
     target: document.getElementsByClassName('OwO-textarea')[0],
     api: './OwO.json',
+    type: 'data-src',
     position: 'down',
     width: '100%',
     maxHeight: '250px'
@@ -60,6 +55,7 @@ var OwO_demo = new OwO({
     container: document.getElementsByClassName('OwO')[0],         // OwO container, default: `document.getElementsByClassName('OwO')[0]`
     target: document.getElementsByClassName('OwO-textarea')[0],   // OwO target input or textarea, default: `document.getElementsByTagName('textarea')[0]`
     api: './OwO.json',                                            // OwO Emoticon data api, default: `https://api.anotherhome.net/OwO/OwO.json`
+    type: 'data-src',                                            // json image图片路径
     position: 'down',                                             // OwO body position, default: `down`
     width: '100%',                                                // OwO body width, default: `100%`
     maxHeight: '250px'                                            // OwO body max-height, default: `250px`
